@@ -1,0 +1,29 @@
+{
+  "name": "SpaceStationbot",
+  "version": "1.0.0",
+  "description": "A bot to locate the coordinates of ISS satellite.",
+  "main": "bin/bot.js",
+  "scripts": {
+    "create": "claudia create --region us-west-2 --api-module bin/bot",
+    "deploy" : "claudia update",
+    "configure-slack": "claudia update --configure-slack-slash-app"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flying-horses/SpaceStationbot.git"
+  },
+  "keywords": [
+    "slackbot",
+    "slashcommands",
+    "spacesatellite"
+  ],
+  "author": " Abhinav Gupta, Shashank Shekhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flying-horses/SpaceStationbot/issues"
+  },
+  "homepage": "https://github.com/flying-horses/SpaceStationbot#readme",
+  "dependencies": {
+    "claudia-bot-builder": "^2.15.0"
+  }
+}

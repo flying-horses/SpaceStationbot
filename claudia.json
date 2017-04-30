@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "SpaceStationbot-executor",
+    "name": "SpaceStationbot",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "302qnsvo82",
+    "module": "bin/bot"
+  }
+}
